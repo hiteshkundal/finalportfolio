@@ -25,7 +25,7 @@ class Footer extends Component {
               </ul>
             </Fade>
             <h6>Hitesh Chauhan </h6>
-            <p>© 2019 Hitesh Chauhan - All Rights Reserved</p>
+            <p>© 2019 Hitesh Chauhan</p>
           </div>
         </div>
       </section>

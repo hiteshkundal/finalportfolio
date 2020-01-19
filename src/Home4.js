@@ -3,7 +3,7 @@ import Navbar from './component/Navbar/Navbar';
 import RBanner from './component/Banner/RippleBanner';
 import About from './component/About';
 import Portfolio from './component/Portfolio/Portfolio';
-import Blog from './component/Blog/Blog';
+// import Blog from './component/Blog/Blog';
 import Contact from './component/Contact';
 import Footer from './component/Footer';
 import jhonData from './component/jhonData';
