@@ -63,7 +63,7 @@ class Navbar extends Component {
                     About
                   </Link>
                 </li>
-                {/* <li className='nav-item'>
+                <li className='nav-item'>
                   <Link
                     className='nav-link'
                     activeClass='active'
@@ -73,10 +73,10 @@ class Navbar extends Component {
                     offset={-86}
                     duration={500}
                   >
-                    Service
+                    Skills
                   </Link>
-                </li> */}
-                <li className='nav-item'>
+                </li>
+                {/* <li className='nav-item'>
                   <Link
                     className='nav-link'
                     activeClass='active'
@@ -88,7 +88,7 @@ class Navbar extends Component {
                   >
                     Skills
                   </Link>
-                </li>
+                </li> */}
                 {/* <li className="nav-item">
                                     <Link className="nav-link" activeClass="active" to="testimonial" spy={true} smooth={true} offset={-86} duration={500}>
                                         Testimonial

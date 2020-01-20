@@ -14,7 +14,7 @@ class Service extends Component {
             TitleP='I love what I do. I take great pride in what I do.'
           />
           <Fade bottom cascade duration={1000}>
-            <div className='row'>
+            <div className='row' style={{ cursor: 'default' }}>
               {jhonData.service &&
                 jhonData.service.map(item => {
                   return (
@@ -23,10 +23,7 @@ class Service extends Component {
                         className='work_item wow fadeInUp'
                         data-wow-delay='0.1s'
                       >
-                        {/* <i className={item.iconName}></i> */}
-                        <a href='.#'>
-                          <h2 className='t_color'>{item.serviceTitle}</h2>
-                        </a>
+                        <h2 className='t_color'>{item.serviceTitle}</h2>
                         <p>{item.sDetails}</p>
                       </div>
                     </div>

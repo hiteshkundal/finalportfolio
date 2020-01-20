@@ -5,20 +5,14 @@ const jhonData = {
   ptext: 'Creative Designer & Developer located in London.',
   socialLinks: [
     {
-      name: 'Github',
-      url: 'http://www.linkedin.com/',
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/hiteshchauhanbrandcer/',
       className: 'social_linkedin'
     },
     {
       name: 'twitter',
-      url: 'http://www.twitter.com/',
+      url: 'https://twitter.com/hiteshkundal',
       className: 'social_twitter'
-    },
-
-    {
-      name: 'github',
-      url: 'http://www.facebook.com',
-      className: 'social_facebook'
     }
   ],
   aboutme: 'About Me',

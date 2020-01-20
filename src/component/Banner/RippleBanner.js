@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Reveal from 'react-reveal/Reveal/';
 import WaterWave from 'react-water-wave';
+// import GitHub from '../../assets/github.png';
 
 class Banner extends Component {
   render() {
@@ -9,6 +10,7 @@ class Banner extends Component {
     return (
       <section id='home'>
         <WaterWave
+          dropRadius={45}
           strength={500}
           className={`banner_area ${bClass}`}
           style={{ width: '100%', height: '100%', backgroundSize: 'cover' }}
@@ -45,6 +47,17 @@ class Banner extends Component {
                         </li>
                       );
                     })}
+                  {/* <li>
+                    <a
+                      href='https://github.com/hiteshkundal'
+                      target='_blank'
+                      rel='noopener noreferrer'
+                    >
+                      <i className='social_github'>
+                        <img src={GitHub} alt=''></img>
+                      </i>
+                    </a>
+                  </li> */}
                 </ul>
               </div>
             </div>
