@@ -1,8 +1,6 @@
-const jhonData = {
+const hiteshData = {
   name: 'Hitesh Chauhan.',
-  name2: 'Richard Tea.',
   role: 'Full-Stack Web Developer,',
-  ptext: 'Creative Designer & Developer located in London.',
   socialLinks: [
     {
       name: 'LinkedIn',
@@ -95,4 +93,4 @@ const jhonData = {
   contacttitle: 'Contact Form'
 };
 
-export default jhonData;
+export default hiteshData;
