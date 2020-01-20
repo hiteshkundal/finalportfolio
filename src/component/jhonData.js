@@ -28,44 +28,56 @@ const jhonData = {
     {
       id: 1,
       iconName: 'icon-desktop',
-      serviceTitle: 'Web Design',
-      sDetails:
-        'There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text.'
+      serviceTitle: 'HTML',
+      sDetails: 'Standard markup language for web browser'
     },
     {
       id: 2,
       iconName: 'icon-pencil',
-      serviceTitle: 'Development',
-      sDetails:
-        'There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text.'
+      serviceTitle: 'CSS & SASS',
+      sDetails: 'Style sheets for better presentation of content on web'
     },
     {
       id: 3,
       iconName: 'icon-presentation',
-      serviceTitle: 'Marketing',
-      sDetails:
-        'There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text.'
+      serviceTitle: 'Material-UI',
+      sDetails: 'React components built upon Material design guideline'
     },
     {
       id: 4,
       iconName: 'icon-linegraph',
-      serviceTitle: 'Strategy',
-      sDetails:
-        'There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text.'
+      serviceTitle: 'ReactJS',
+      sDetails: 'JavaScript library for building user interfaces'
     },
     {
       id: 5,
       iconName: 'icon-gears',
-      serviceTitle: 'Support',
-      sDetails:
-        'There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text.'
+      serviceTitle: 'NodeJS',
+      sDetails: 'JavaScript run-time that executes JS code outside of browser'
     },
     {
       id: 6,
       iconName: 'icon-tools',
-      serviceTitle: 'We’re experienced',
-      sDetails:
-        'There are many variations of pssages of Lorm available, bu in some form, Lorem Ipsum is simply dummy text.'
+      serviceTitle: 'MongoDB',
+      sDetails: 'Document oriented database management system'
+    },
+    {
+      id: 7,
+      iconName: 'icon-tools',
+      serviceTitle: 'MySQL',
+      sDetails: 'Relational database management system'
+    },
+    {
+      id: 8,
+      iconName: 'icon-tools',
+      serviceTitle: 'JavaScript',
+      sDetails: 'High-level language that conforms to ECMAScript specifications'
+    },
+    {
+      id: 9,
+      iconName: 'icon-tools',
+      serviceTitle: 'Jest & Enzyme',
+      sDetails: 'Testing libraries for JavaScript and React Components'
     }
   ],
   contact: [
