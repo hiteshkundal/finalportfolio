@@ -1,17 +1,14 @@
 import React from 'react';
-import Sectiontitle from '../component/Banner/Sectiontitle';
+import Sectiontitle from './Banner/Sectiontitle';
 import Fade from 'react-reveal/Fade';
 
-const Service = props => {
+const Skills = props => {
   let hiteshData = props.hiteshData;
   var { wClass } = props;
   return (
     <section className={`${wClass}`} id='service'>
       <div className='container'>
-        <Sectiontitle
-          Title='My Skills'
-          TitleP='I love what I do. I take great pride in what I do.'
-        />
+        <Sectiontitle Title='My Skills' TitleP='Things I have learned...' />
         <Fade bottom cascade duration={2000}>
           <div className='row'>
             {hiteshData.service &&
@@ -34,4 +31,4 @@ const Service = props => {
   );
 };
 
-export default Service;
+export default Skills;

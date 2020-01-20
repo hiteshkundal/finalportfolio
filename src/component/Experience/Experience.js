@@ -1,9 +1,9 @@
 import React from 'react';
 import Sectiontitle from '../Banner/Sectiontitle';
 import Reveal from 'react-reveal/Reveal/';
-import style from './Blog.module.css';
+import style from './Experience.module.css';
 
-const Blog = () => {
+const Experience = () => {
   return (
     <section className='blog_area' id='blog'>
       <div className='container'>
@@ -16,4 +16,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Experience;
