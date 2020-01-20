@@ -35,7 +35,8 @@ const Contact = props => {
             })}
           <div
             style={{
-              boxShadow: '0px 2px 35px 0px rgba(0, 0, 0, 0.1)'
+              boxShadow: '0px 2px 35px 0px rgba(0, 0, 0, 0.1)',
+              overflow: 'hidden'
             }}
           >
             <Reveal effect='fadeInUp' duration={800}>
