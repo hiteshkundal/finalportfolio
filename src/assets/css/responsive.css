@@ -8,6 +8,9 @@
   .about_content {
     padding-right: 0px;
   }
+  .about_content_right {
+    padding-left: 0px;
+  }
   .promo_section .promo_box_one {
     padding: 0px 15px;
   }
@@ -85,11 +88,15 @@
 }
 
 @media (max-width: 767px) {
+  .velle {
+    padding-left: 15px;
+  }
   .contact-area .contact_info {
     margin-bottom: 50px;
   }
   .about_img img {
     max-width: 100%;
+    width: 300px;
     margin-left: 0px;
   }
   .about_content {

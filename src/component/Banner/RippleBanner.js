@@ -30,7 +30,7 @@ const Banner = props => {
                   Full-Stack Web Developer.
                 </h4>
               </Reveal>
-              <Reveal effect='fadeInUp' duration={2200}>
+              {/* <Reveal effect='fadeInUp' duration={2200}>
                 <ul className='list_style social_icon'>
                   {hiteshData.socialLinks &&
                     hiteshData.socialLinks.map(item => {
@@ -47,7 +47,7 @@ const Banner = props => {
                       );
                     })}
                 </ul>
-              </Reveal>
+              </Reveal> */}
             </div>
           </div>
         )}

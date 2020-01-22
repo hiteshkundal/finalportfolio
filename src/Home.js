@@ -14,7 +14,7 @@ const Home = () => (
     <RBanner hiteshData={hiteshData} imag='Sail-Away.jpg' />
     <About aClass='about_area' hiteshData={hiteshData} />
     <Skills wClass='work_area' hiteshData={hiteshData} />
-    <Experience />
+    <Experience aClass='about_area' />
     <Contact hiteshData={hiteshData} />
     <Footer hiteshData={hiteshData} />
   </div>

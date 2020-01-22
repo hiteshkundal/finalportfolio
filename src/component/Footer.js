@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Fade from 'react-reveal/Fade';
+import GitHub from '../image/github.png';
+import LinkedIn from '../image/linkedin3.png';
+import Twitter from '../image/twitter.png';
+import Email from '../image/email.png';
 
 const Footer = props => {
-  let hiteshData = props.hiteshData;
   return (
     <section className='footer-area sect-pad'>
       <div className='container'>
@@ -11,19 +13,44 @@ const Footer = props => {
           <Link to='/' className='logo wow fadeInDown' data-wow-delay='0.4s'>
             <img src={require('../image/logo2.png')} alt='' />
           </Link>
-          <Fade top cascade>
-            <ul className='list_style'>
-              {hiteshData.socialLinks.map(item => {
-                return (
-                  <li key={item.name}>
-                    <a href={item.url}>
-                      <i className={item.className}></i>
-                    </a>
-                  </li>
-                );
-              })}
-            </ul>
-          </Fade>
+          <ul className='list_style'>
+            <li>
+              <a
+                href='https://github.com/hiteshkundal/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <img src={GitHub} alt=''></img>
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://www.linkedin.com/in/hiteshchauhanbrandcer/'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <img src={LinkedIn} alt=''></img>
+              </a>
+            </li>
+            <li>
+              <a
+                href='https://twitter.com/hiteshkundal'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <img src={Twitter} alt=''></img>
+              </a>
+            </li>
+            <li>
+              <a
+                href='mailto:hiteshchauhan.nmims@gmail.com'
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <img src={Email} alt=''></img>
+              </a>
+            </li>
+          </ul>
           <h6>Hitesh Chauhan </h6>
           <p>© 2019 Hitesh Chauhan</p>
         </div>

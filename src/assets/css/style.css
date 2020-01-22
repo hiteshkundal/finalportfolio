@@ -71,7 +71,7 @@ h6 {
 }
 
 .t_color {
-  color: #040c2c;
+  color: black;
 }
 
 @media (max-width: 767px) {
@@ -119,9 +119,9 @@ h6 {
 .theme_btn {
   font-size: 20px;
   font-weight: 500;
-  color: #040c2c;
+  color: black;
   font-family: 'Montserrat', sans-serif;
-  border: 2px solid #040c2c;
+  border: 2px solid black;
   padding: 10px 36px;
   border-radius: 3px;
   position: relative;
@@ -135,31 +135,8 @@ h6 {
   display: inline-block;
 }
 
-.theme_btn:before {
-  content: '';
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  -webkit-transform: scaleX(0);
-  -ms-transform: scaleX(0);
-  transform: scaleX(0);
-  border-radius: 1px;
-  background: #040c2c;
-  -webkit-transform-origin: 50%;
-  -ms-transform-origin: 50%;
-  transform-origin: 50%;
-  transition-property: -webkit-transform;
-  -webkit-transition-property: -webkit-transform;
-  -o-transition-property: transform;
-  transition-property: transform;
-  transition-property: transform, -webkit-transform;
-  transition: all 0.3s linear;
-}
-
 .theme_btn:hover {
+  background-color: black;
   color: #fff;
 }
 
@@ -266,11 +243,11 @@ h6 {
 }
 
 .navbar_fixed .navbar .navbar-nav .nav-item .nav-link {
-  color: #040c2c;
+  color: black;
 }
 
 .navbar_fixed .navbar-nav .nav-item .nav-link:before {
-  background: #040c2c;
+  background: black;
 }
 
 .navbar-toggler {
@@ -335,14 +312,14 @@ h6 {
 }
 
 .dark_menu .navbar-nav .nav-item .nav-link {
-  color: #040c2c;
+  color: black;
 }
 .dark_menu .navbar-nav .nav-item .nav-link.active:before,
 .dark_menu .navbar .navbar-nav .nav-item .nav-link:hover:before {
-  background: #040c2c;
+  background: black;
 }
 .dark_menu .login {
-  background: #040c2c;
+  background: black;
   color: #fff;
 }
 .dark_menu .logo_h img {
@@ -430,7 +407,7 @@ h6 {
 
 .banner_content .social_icon li a:hover {
   background: #fff;
-  color: #040c2c;
+  color: black;
 }
 
 /*=========== about_area css ===========*/
@@ -439,12 +416,20 @@ h6 {
   padding-top: 80px;
   padding-bottom: 80px;
 }
-
+.about_area_right {
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
 .about_content {
   padding-right: 88px;
   padding-bottom: 50px;
 }
 
+.about_content_right {
+  padding-left: 88px;
+  padding-bottom: 50px;
+}
 .about_content h2 {
   font-size: 35px;
   line-height: 45px;
@@ -471,7 +456,7 @@ h6 {
   margin-left: 15px;
 }
 .about_content .theme_btn.active:hover {
-  color: #040c2c;
+  color: black;
 }
 .about_content .theme_btn.active:hover:before {
   transform: scaleX(0);
@@ -543,7 +528,7 @@ h6 {
 
 .contact-area h4 {
   font: 700 35px/40px 'Montserrat', sans-serif;
-  color: #040c2c;
+  color: black;
   text-transform: capitalize;
   padding-bottom: 24px;
 }
@@ -587,7 +572,7 @@ h6 {
 /*----------------------------------------------------*/
 /*========= Start footer area css ========*/
 .footer-area {
-  background: #040c2c;
+  background: black;
   position: relative;
   padding: 60px 0px 60px;
 }
@@ -610,25 +595,6 @@ h6 {
   padding: 0px 5px;
 }
 
-.footer-area .footer-content ul li a {
-  width: 35px;
-  height: 35px;
-  border: 1px solid #fff;
-  color: #fff;
-  font-size: 12px;
-  line-height: 35px;
-  border-radius: 50%;
-  display: inline-block;
-  -webkit-transition: all 0.3s linear;
-  -o-transition: all 0.3s linear;
-  transition: all 0.3s linear;
-}
-
-.footer-area .footer-content ul li a:hover {
-  background: #fff;
-  color: #494949;
-}
-
 .footer-area .footer-content h6 {
   font: 400 14px/20px 'Lora', serif;
   color: #999;
@@ -645,4 +611,8 @@ h6 {
   letter-spacing: 3px;
   text-transform: uppercase;
   margin-bottom: 0px;
+}
+
+.velle {
+  padding-left: 130px;
 }

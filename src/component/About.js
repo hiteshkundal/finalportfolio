@@ -3,7 +3,7 @@ import { Fade, Reveal } from 'react-reveal/';
 
 const About = props => {
   let hiteshData = props.hiteshData;
-  var { aClass } = props;
+  const { aClass } = props;
   return (
     <section className={`${aClass}`} id='about'>
       <div className='container'>

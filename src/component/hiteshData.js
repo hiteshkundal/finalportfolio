@@ -11,6 +11,11 @@ const hiteshData = {
       name: 'twitter',
       url: 'https://twitter.com/hiteshkundal',
       className: 'social_twitter'
+    },
+    {
+      name: 'gmail',
+      url: 'mailto:hiteshchauhan.nmims@gmail.com',
+      className: 'social_email'
     }
   ],
   aboutme: 'About Me',
